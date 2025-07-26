@@ -4,15 +4,16 @@ export default function Index() {
     <View
       style={styles.container} >
       <Text>"Entry Screen - Awesome"</Text>
-      <View>  
-         <Text style={styles.largeText}>Typescript is great if you practice more</Text> /r /n
-         <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text> /r /n
+      <View>
+         <Text style={styles.largeText}>Typescript is great if you practice more</Text>
+         <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text>
          <Text style={styles.smallText}>ALX is Awesome</Text>
-        </View>
+      </View>
     </View>
     
+    
   );
-}z
+}
 const styles = StyleSheet.create({
   container: {
     backgroundColor: "#90caf9",
